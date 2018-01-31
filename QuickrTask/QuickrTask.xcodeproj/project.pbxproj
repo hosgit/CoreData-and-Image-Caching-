@@ -1,0 +1,428 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8E049BDE2018831B00995F6D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E049BDD2018831B00995F6D /* AppDelegate.swift */; };
+		8E049BE32018831B00995F6D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E049BE12018831B00995F6D /* Main.storyboard */; };
+		8E049BE62018831B00995F6D /* QuickrTask.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8E049BE42018831B00995F6D /* QuickrTask.xcdatamodeld */; };
+		8E049BE82018831B00995F6D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E049BE72018831B00995F6D /* Assets.xcassets */; };
+		8E049BEB2018831B00995F6D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E049BE92018831B00995F6D /* LaunchScreen.storyboard */; };
+		8E049BF6201884D700995F6D /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E049BF5201884D700995F6D /* HomeViewController.swift */; };
+		8E049BFC20188A0700995F6D /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E049BFB20188A0700995F6D /* NetworkManager.swift */; };
+		8E049BFE20188A1800995F6D /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E049BFD20188A1800995F6D /* LocationManager.swift */; };
+		8E049C0020188A3100995F6D /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E049BFF20188A3100995F6D /* Constants.swift */; };
+		8E89800A2018A559002A9870 /* MyCacheableImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8980092018A559002A9870 /* MyCacheableImageView.swift */; };
+		8E89800C2018AD3B002A9870 /* RestuarantCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E89800B2018AD3B002A9870 /* RestuarantCell.swift */; };
+		8E8980102018B4E8002A9870 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E89800F2018B4E8002A9870 /* CoreDataManager.swift */; };
+		8E8980142018C3FE002A9870 /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8980132018C3FE002A9870 /* Restaurant.swift */; };
+		8E8980162018C9DF002A9870 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8980152018C9DF002A9870 /* Utility.swift */; };
+		8E8980182018F985002A9870 /* RestaurantDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8980172018F985002A9870 /* RestaurantDetailViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8E049BDA2018831B00995F6D /* QuickrTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuickrTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E049BDD2018831B00995F6D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8E049BE22018831B00995F6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8E049BE52018831B00995F6D /* QuickrTask.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = QuickrTask.xcdatamodel; sourceTree = "<group>"; };
+		8E049BE72018831B00995F6D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8E049BEA2018831B00995F6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8E049BEC2018831B00995F6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E049BF5201884D700995F6D /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		8E049BFB20188A0700995F6D /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		8E049BFD20188A1800995F6D /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		8E049BFF20188A3100995F6D /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		8E8980092018A559002A9870 /* MyCacheableImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCacheableImageView.swift; sourceTree = "<group>"; };
+		8E89800B2018AD3B002A9870 /* RestuarantCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestuarantCell.swift; sourceTree = "<group>"; };
+		8E89800F2018B4E8002A9870 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		8E8980132018C3FE002A9870 /* Restaurant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restaurant.swift; sourceTree = "<group>"; };
+		8E8980152018C9DF002A9870 /* Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
+		8E8980172018F985002A9870 /* RestaurantDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantDetailViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8E049BD72018831B00995F6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8E049BD12018831B00995F6D = {
+			isa = PBXGroup;
+			children = (
+				8E049BDC2018831B00995F6D /* QuickrTask */,
+				8E049BDB2018831B00995F6D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8E049BDB2018831B00995F6D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8E049BDA2018831B00995F6D /* QuickrTask.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8E049BDC2018831B00995F6D /* QuickrTask */ = {
+			isa = PBXGroup;
+			children = (
+				8E049BF82018853500995F6D /* Manager */,
+				8E049BF72018853500995F6D /* Utility */,
+				8E049BF4201884B800995F6D /* Controller */,
+				8E049BF3201884B800995F6D /* Model */,
+				8E049BF2201884B800995F6D /* View */,
+				8E049BFA2018857600995F6D /* SupportingFiles */,
+			);
+			path = QuickrTask;
+			sourceTree = "<group>";
+		};
+		8E049BF2201884B800995F6D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8E8980092018A559002A9870 /* MyCacheableImageView.swift */,
+				8E89800B2018AD3B002A9870 /* RestuarantCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8E049BF3201884B800995F6D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8E8980132018C3FE002A9870 /* Restaurant.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8E049BF4201884B800995F6D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8E049BF5201884D700995F6D /* HomeViewController.swift */,
+				8E8980172018F985002A9870 /* RestaurantDetailViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8E049BF72018853500995F6D /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				8E049BFF20188A3100995F6D /* Constants.swift */,
+				8E8980152018C9DF002A9870 /* Utility.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		8E049BF82018853500995F6D /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				8E049BFB20188A0700995F6D /* NetworkManager.swift */,
+				8E049BFD20188A1800995F6D /* LocationManager.swift */,
+				8E89800F2018B4E8002A9870 /* CoreDataManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		8E049BFA2018857600995F6D /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				8E049BDD2018831B00995F6D /* AppDelegate.swift */,
+				8E049BE12018831B00995F6D /* Main.storyboard */,
+				8E049BE72018831B00995F6D /* Assets.xcassets */,
+				8E049BE92018831B00995F6D /* LaunchScreen.storyboard */,
+				8E049BEC2018831B00995F6D /* Info.plist */,
+				8E049BE42018831B00995F6D /* QuickrTask.xcdatamodeld */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8E049BD92018831B00995F6D /* QuickrTask */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E049BEF2018831B00995F6D /* Build configuration list for PBXNativeTarget "QuickrTask" */;
+			buildPhases = (
+				8E049BD62018831B00995F6D /* Sources */,
+				8E049BD72018831B00995F6D /* Frameworks */,
+				8E049BD82018831B00995F6D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QuickrTask;
+			productName = QuickrTask;
+			productReference = 8E049BDA2018831B00995F6D /* QuickrTask.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8E049BD22018831B00995F6D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = HoshiyarSinghQuikrTask;
+				TargetAttributes = {
+					8E049BD92018831B00995F6D = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 8E049BD52018831B00995F6D /* Build configuration list for PBXProject "QuickrTask" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8E049BD12018831B00995F6D;
+			productRefGroup = 8E049BDB2018831B00995F6D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8E049BD92018831B00995F6D /* QuickrTask */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8E049BD82018831B00995F6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E049BEB2018831B00995F6D /* LaunchScreen.storyboard in Resources */,
+				8E049BE82018831B00995F6D /* Assets.xcassets in Resources */,
+				8E049BE32018831B00995F6D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8E049BD62018831B00995F6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E8980142018C3FE002A9870 /* Restaurant.swift in Sources */,
+				8E89800C2018AD3B002A9870 /* RestuarantCell.swift in Sources */,
+				8E049BFC20188A0700995F6D /* NetworkManager.swift in Sources */,
+				8E049BDE2018831B00995F6D /* AppDelegate.swift in Sources */,
+				8E049BFE20188A1800995F6D /* LocationManager.swift in Sources */,
+				8E8980162018C9DF002A9870 /* Utility.swift in Sources */,
+				8E049BE62018831B00995F6D /* QuickrTask.xcdatamodeld in Sources */,
+				8E049BF6201884D700995F6D /* HomeViewController.swift in Sources */,
+				8E049C0020188A3100995F6D /* Constants.swift in Sources */,
+				8E89800A2018A559002A9870 /* MyCacheableImageView.swift in Sources */,
+				8E8980182018F985002A9870 /* RestaurantDetailViewController.swift in Sources */,
+				8E8980102018B4E8002A9870 /* CoreDataManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8E049BE12018831B00995F6D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E049BE22018831B00995F6D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8E049BE92018831B00995F6D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E049BEA2018831B00995F6D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8E049BED2018831B00995F6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8E049BEE2018831B00995F6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8E049BF02018831B00995F6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = QuickrTask/SupportingFiles/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hos.lbox.QuickrTask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8E049BF12018831B00995F6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = QuickrTask/SupportingFiles/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hos.lbox.QuickrTask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8E049BD52018831B00995F6D /* Build configuration list for PBXProject "QuickrTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E049BED2018831B00995F6D /* Debug */,
+				8E049BEE2018831B00995F6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E049BEF2018831B00995F6D /* Build configuration list for PBXNativeTarget "QuickrTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E049BF02018831B00995F6D /* Debug */,
+				8E049BF12018831B00995F6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8E049BE42018831B00995F6D /* QuickrTask.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8E049BE52018831B00995F6D /* QuickrTask.xcdatamodel */,
+			);
+			currentVersion = 8E049BE52018831B00995F6D /* QuickrTask.xcdatamodel */;
+			path = QuickrTask.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8E049BD22018831B00995F6D /* Project object */;
+}
