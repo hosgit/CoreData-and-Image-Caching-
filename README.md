@@ -1,2 +1,2 @@
-# CoreGraphics
+# CoreDate and Caching images
 steapsInCoreGrapics
