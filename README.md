@@ -1,2 +1,2 @@
 # CoreDate and Caching images
-steapsInCoreGrapics
+Here Implement the CoreData Stack with private queue implementation and image caching(offline mode)
